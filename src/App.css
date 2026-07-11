@@ -180,6 +180,7 @@ body {
 
 .box-p {
   margin-right: 85px;
+  width: 50%;
 }
 
 .box2 {
@@ -424,6 +425,17 @@ form {
 
   .description{
     text-align: center;
+  }
+
+  .box-p{
+    margin-right: 0;
+    font-size: 20px;
+    width: 200px;
+  }
+  
+  .Ab-box{
+    display: flex;
+    justify-content: center;
   }
 }
 
