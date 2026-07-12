@@ -454,6 +454,7 @@ form {
 
   .description{
     text-align: start;
+    font-size: larger;
   }
 
   .head{
@@ -471,7 +472,7 @@ form {
   }
 
   .AB-section {
-    width: 21rem;
+    width: 20rem;
   }
 
   .Brand {
@@ -483,11 +484,12 @@ form {
 
 @media screen and (max-width: 320px) {
   .containerMD {
-    width: 21rem;
+    width: 19.5rem;
+    margin: 6px;
   }
 
   .design-ball {
     right: 108px;
-    top: 74rem;
+    top: 67rem;
   }
 }

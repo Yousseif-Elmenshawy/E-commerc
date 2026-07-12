@@ -6,7 +6,7 @@ export default function Hero(){
             <section className="Hero">
                 <br />
                 <div className="container-fluidd">
-                    <div className="container m-3">
+                    <div className="container m-0 mb-5 p-3">
                         <div id="main">
                             <span className="tagname m-3 text-light">We create solutions</span>
                         </div>
