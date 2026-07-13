@@ -176,6 +176,7 @@ body {
 
 .box1 {
   padding: 10px;
+  width: 50%;
 }
 
 .box-p {
@@ -337,7 +338,8 @@ form {
   }
 
   .containerMD {
-    width: 48rem;
+    width: auto;
+    margin: 10px;
   }
 
   #username {
@@ -382,13 +384,14 @@ form {
 
   .design-ball {
     right: 37px;
-    top: 58rem;
+    top: 61rem;
   }
 
   .AB-section {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    margin: 5rem 10px;
   }
 
   .box3 {
@@ -405,7 +408,7 @@ form {
   }
 
   .Brand {
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: 800;
     text-transform: uppercase;
   }
@@ -428,14 +431,19 @@ form {
   }
 
   .box-p{
-    margin-right: 0;
+    /* margin-right: 0; */
     font-size: 20px;
-    width: 200px;
+    width: auto;
   }
   
   .Ab-box{
     display: flex;
     justify-content: center;
+  }
+
+  .box1 {
+    padding: 10px;
+    width: auto;
   }
 }
 
@@ -468,11 +476,11 @@ form {
   }
 
   .containerMD {
-    width: 28rem;
+    width: auto;
   }
 
   .AB-section {
-    width: 20rem;
+    width: auto;
   }
 
   .Brand {
@@ -490,6 +498,6 @@ form {
 
   .design-ball {
     right: 108px;
-    top: 67rem;
+    top: 69rem;
   }
 }
