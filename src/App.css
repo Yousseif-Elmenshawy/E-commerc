@@ -203,7 +203,7 @@ body {
 .box3 {
   background-color: var(--text);
   height: 30rem;
-  width: 43rem;
+  width: auto;
 }
 
 .box-head {
@@ -327,9 +327,32 @@ form {
 }
 @media screen and (max-width: 1024px) {
   .Brand {
-    font-size: 15rem;
+    font-size: 13rem;
     font-weight: 800;
     text-transform: uppercase;
+  }
+
+  .AB-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 5rem 10px;
+  }
+
+  .box1 {
+    padding: 10px;
+    width: auto;
+  }
+
+  .box-p{
+    /* margin-right: 0; */
+    font-size: 20px;
+    width: auto;
+  }
+
+   .img {
+    right: -24.5rem;
+    top: -1rem;
   }
 }
 @media screen and (max-width: 768px) {

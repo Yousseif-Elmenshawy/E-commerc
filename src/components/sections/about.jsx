@@ -2,7 +2,7 @@
 
 export default function About(){
     return(
-        <>
+        <div className="container d-flex justify-content-center">
             <section id="About" className="AB-section container">
                     <div className="box1">
                         <h2>ABOUT US</h2>
@@ -17,6 +17,6 @@ export default function About(){
                     <h3 className="box-head">we don't follow trends. <br /> we set them.</h3>
                 </div>
             </section>
-        </>
+        </div>
     )
 }
